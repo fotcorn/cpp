@@ -2,7 +2,7 @@
 #include <iostream>
 
 template <typename V, std::size_t L> void print(const V (&array)[L]) {
-    for (int i = 0; i < L; i++) {
+    for (std::size_t i = 0; i < L; i++) {
         std::cout << array[i];
     }
     std::cout << std::endl;
