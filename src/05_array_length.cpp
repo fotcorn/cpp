@@ -16,5 +16,8 @@ int main() {
     // we can use array_length for compile time constants because its defined as constexpr
     int other_array[array_length(array)];
     std::cout << array_length(other_array) << std::endl;
+
+    // int third_array[my_random()];  // does not compile because my_random is
+    // not compile time constant
     return 0;
 }
