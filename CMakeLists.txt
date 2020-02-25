@@ -6,3 +6,4 @@ project(cpp
 )
 
 add_executable(compare ${CMAKE_CURRENT_SOURCE_DIR}/src/01_compare.cpp)
+add_executable(find ${CMAKE_CURRENT_SOURCE_DIR}/src/02_find.cpp)
