@@ -1,7 +1,7 @@
 #include <cstddef>
 #include <iostream>
 
-template <typename V, std::size_t L> constexpr std::size_t array_length(const V (&array)[L]) {
+template <typename V, std::size_t L> constexpr std::size_t array_length(const V (&)[L]) {
     return L;
 }
 
