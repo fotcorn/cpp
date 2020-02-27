@@ -15,3 +15,7 @@ add_executable(find ${CMAKE_CURRENT_SOURCE_DIR}/template_functions/02_find.cpp)
 add_executable(print_array ${CMAKE_CURRENT_SOURCE_DIR}/template_functions/03_print_array.cpp)
 add_executable(array_begin_end ${CMAKE_CURRENT_SOURCE_DIR}/template_functions/04_array_begin_end.cpp)
 add_executable(array_length ${CMAKE_CURRENT_SOURCE_DIR}/template_functions/05_array_length.cpp)
+
+add_executable(vector ${CMAKE_CURRENT_SOURCE_DIR}/stdlib/vector.cpp)
+
+add_executable(exp_vector ${CMAKE_CURRENT_SOURCE_DIR}/experiments/vector.cpp)
