@@ -20,3 +20,4 @@ add_executable(vector ${CMAKE_CURRENT_SOURCE_DIR}/stdlib/vector.cpp)
 
 add_executable(exp_vector ${CMAKE_CURRENT_SOURCE_DIR}/experiments/vector.cpp)
 add_executable(is_prime ${CMAKE_CURRENT_SOURCE_DIR}/experiments/is_prime.cpp)
+add_executable(variadic_print ${CMAKE_CURRENT_SOURCE_DIR}/experiments/variadic_print.cpp)
