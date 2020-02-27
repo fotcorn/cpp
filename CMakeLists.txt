@@ -19,3 +19,4 @@ add_executable(array_length ${CMAKE_CURRENT_SOURCE_DIR}/template_functions/05_ar
 add_executable(vector ${CMAKE_CURRENT_SOURCE_DIR}/stdlib/vector.cpp)
 
 add_executable(exp_vector ${CMAKE_CURRENT_SOURCE_DIR}/experiments/vector.cpp)
+add_executable(is_prime ${CMAKE_CURRENT_SOURCE_DIR}/experiments/is_prime.cpp)
